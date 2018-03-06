@@ -16,7 +16,7 @@ import (
 )
 
 func main() {
-	cfg := util.Config{}
+	cfg := util.Config{Environment: "dev", Port: 33333}
 	if err := envconfig.Process("trickortreat", &cfg); err != nil {
 		log.Fatalf("config error [%s]", err)
 		os.Exit(1)
