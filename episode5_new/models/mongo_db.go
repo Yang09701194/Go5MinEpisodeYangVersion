@@ -1,12 +1,12 @@
 package models
 
-import {
+import (
 	//應該是import mongo db的package
 	//也就是整個mongo db的go檔案  只需要import這兩個package就可以運作
 	//這點值得注意
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-}
+)
 
 const(
 	dbName			=	"trickortreat"
