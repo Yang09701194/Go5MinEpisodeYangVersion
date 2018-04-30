@@ -23,7 +23,8 @@
 #linux-amd64
 #glide-v0.12.0-linux-amd64.tar.gz
 
-#*.exe
+*.exe
+*.exe*
 #*.test
 #*.prof
 #episode*/vendor
